@@ -1,0 +1,30 @@
+.outfit-webFont {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left : 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar {
+    width: 30px;
+    list-style-type: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    margin-bottom: 20px;
+    display: block;
+}
