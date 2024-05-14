@@ -6,13 +6,11 @@
 }
 
 .title {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left : 30px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    color:azure;
 }
 
 .navbar {
@@ -22,9 +20,60 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color:azure;
+    
+}
+
+.vertical_mirror {
+    transform: scaleY(-1);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact_image {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    display: block;
+    margin: 10;
+    transition: transform 0.3s ease;
+    filter:invert(100);
+}
+
+.contact_image:hover
+{
+    transform: scale(1.2);
+}
+
+.no-gap {
+    line-height: 1; /* Adjust as needed */
+    margin: 0;
+}
+
+.left-margin {
+    margin-left: 20px;
 }
 
 li {
     margin-bottom: 20px;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background-color: #232E3A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
