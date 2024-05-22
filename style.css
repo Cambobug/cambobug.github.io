@@ -46,6 +46,7 @@
     font-size: 3.5vw;
     color:azure;
     padding-top: 6%;
+    text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -86,7 +87,7 @@
 }
 
 .item {
-    width: 45%;
+    width: 48%;
     box-sizing: border-box;
 }
 
